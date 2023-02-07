@@ -1,7 +1,7 @@
-# Hyde
+# Game Hyde
 
 Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name.
-It pairs a prominent sidebar with uncomplicated content.
+It pairs a prominent sidebar with uncomplicated content. Game Hyde is a variation of Hyde tweaked to fit the needs of an RPG group website.
 
 ![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
 
@@ -37,7 +37,7 @@ _[Forestry](https://forestry.io) Starter-Kit:_
 To install Hyde as your default theme, first install this repository in the `themes/` directory:
 
     $ cd themes/
-    $ git clone https://github.com/spf13/hyde.git
+    $ git clone https://github.com/ClayDowling/game-hyde.git
 
 Second, specify `hyde` as your default theme in the `config.toml` file. Just add the line
 
@@ -57,7 +57,7 @@ Create a list of nav links in the sidebar by assigning "menu=main" in the front 
 
 **TOML**
 ```toml
-theme = "hyde"
+theme = "game-hyde"
 
 [Menus]
   main = [
@@ -68,7 +68,7 @@ theme = "hyde"
 
 **YAML**
 ```yaml
-theme: "hyde"
+theme: "game-hyde"
 
 Menus:
   main:
@@ -83,7 +83,7 @@ Customise the describe of your page using `description`, like so:
 
 **TOML**
 ```toml
-theme = "hyde"
+theme = "game-hyde"
 
 [params]
   description = "Your custom description"
@@ -91,7 +91,7 @@ theme = "hyde"
 
 **YAML**
 ```yaml
-theme: "hyde"
+theme: "game-hyde"
 
 params:
   description = "Your custom description"
@@ -121,7 +121,7 @@ By default Hyde ships with a sidebar that affixes it's content to the bottom of 
 
 ### Themes
 
-Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
+Game Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
 
 ![Hyde in red](https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png)
 
@@ -133,7 +133,7 @@ To use a theme, add the `themeColor` variable under `params`, like so:
 
 **TOML**
 ```toml
-theme = "hyde"
+theme = "game-hyde"
 
 [params]
   themeColor = "theme-base-09"
@@ -141,7 +141,7 @@ theme = "hyde"
 
 **YAML**
 ```yaml
-theme: "hyde"
+theme: "game-hyde"
 
 params:
   themeColor: "theme-base-09"
@@ -151,13 +151,13 @@ To create your own theme, look to the Themes section of [included CSS file](http
 
 ### Reverse layout
 
-![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
+![Game Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
 
 To reverse page orientation, add the `layoutReverse` variable under `params`, like so:
 
 **TOML**
 ```toml
-theme = "hyde"
+theme = "game-hyde"
 
 [params]
   layoutReverse = true
@@ -165,7 +165,7 @@ theme = "hyde"
 
 **YAML**
 ```yaml
-theme: "hyde"
+theme: "game-hyde"
 
 params:
   layoutReverse: true
@@ -177,12 +177,12 @@ You can optionally enable a comment system powered by Disqus for the posts. Simp
 
 **TOML**
 ```toml
-disqusShortname = "spf13"
+disqusShortname = "yourshortname"
 ```
 
 **YAML**
 ```yaml
-disqusShortname : spf13
+disqusShortname : yourshortname
 ```
 
 > **Note:** Previous version 1.0 the Disqus shortname had to be defined inside the `[params]` block.
@@ -211,6 +211,12 @@ googleAnalytics: Your tracking code
 **Steve Francia**
 - <https://github.com/spf13>
 - <https://twitter.com/spf13>
+
+## Game Hyde by
+
+**Clay Dowling**
+- <https://github.com/ClayDowling>
+- <https://techhub.social/ClayDowling>
 
 ## License
 
