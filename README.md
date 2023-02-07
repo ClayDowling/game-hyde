@@ -118,6 +118,27 @@ By default Hyde ships with a sidebar that affixes it's content to the bottom of 
 </div>
 ```
 
+### Section Article Summaries
+
+By default section list pages only list article titles and publication dates. If you would like sections to look more like the home page, with article summaries, enable it in the config params.
+
+**TOML**
+```toml
+theme = "game-hyde"
+
+[params]
+  sectionSummary = true
+```
+
+**YAML**
+```yaml
+theme: "game-hyde"
+
+params:
+  sectionSummary: true
+```
+
+
 
 ### Themes
 
